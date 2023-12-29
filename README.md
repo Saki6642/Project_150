@@ -1,5 +1,7 @@
 CSE 150- Team ABC
+
 Project Title: Ping Pong Game
+
 Description:
 The Ping Pong Game is a timeless arcade-style recreation designed to immerse players in the excitement of a digital table tennis match. Emulating the swift back-and-forth action of the classic game, players control paddles positioned on opposing ends of the screen, engaging in a thrilling duel to prevent a ball from passing. With its engaging gameplay, competitive spirit, this game promises an addictive experience that captivates players of all skill levels.
 
@@ -21,6 +23,7 @@ Game Logic: Implementing a robust core system encompassing the intricacies of ba
 Enhanced Features: Exploring additional features such as customizable settings, enabling players to adjust parameters like ball speed, and incorporating a user-friendly pause/menu function to elevate the overall gaming experience.
 
 Bug Testing and Refinement: A meticulous phase of testing and refinement aimed at identifying and resolving potential bugs, glitches, and usability concerns, thereby guaranteeing a polished and enjoyable gaming interface that meets user expectations.
+
 
 Team Members :
 Niloy Sarker: 20203310333
