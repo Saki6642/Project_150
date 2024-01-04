@@ -24,6 +24,15 @@ void setup() {              ///Initializes game variables, placing the ball and 
     ComputerScore = 0;
 }
 
+void DoNotBlink(_Bool showFlag) {
+    HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
+    CONSOLE_CURSOR_INFO cursorInfo;
+    GetConsoleCursorInfo(out, &cursorInfo);
+    cursorInfo.bVisible = showFlag;
+    SetConsoleCursorInfo(out, &cursorInfo);
+}
+
+
 void draw() {        /// draws the game board and other things like ball,paddle
     COORD coord = {0, 0};
     SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coord);  ///to set the cursor position in the console window /// (GetStdHandle)to retrieve the standard output handle for the console
@@ -120,6 +129,7 @@ else if (ballY < computerY)
 }
 
 int main() {
+    DoNotBlink(0);
     setup();
     while (1) {          /// Change the game loop condition to an infinite loop
         draw();
