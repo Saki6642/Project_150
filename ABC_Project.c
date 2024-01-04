@@ -135,7 +135,7 @@ int main() {
         draw();
         input();
         logic();
-        if (PlayerScore >= 5 || ComputerScore >= 5) {
+        if (PlayerScore >= 10 || ComputerScore >= 10) {
             printf("Game Over! Player: %d\tComputer: %d\n", PlayerScore, ComputerScore);
             break;
         }
