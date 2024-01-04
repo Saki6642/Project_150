@@ -107,7 +107,7 @@ void logic() {
 
     ///#main
     if (ball_Y > ComputerY)
-        ComputerY++;
+        ComputerY+=7;
     else if (ball_Y < ComputerY)
         ComputerY--;    ///   player paddle has a range but in this case we didnt give any range to the comp.paddle
 
