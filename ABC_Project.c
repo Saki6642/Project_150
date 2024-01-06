@@ -17,7 +17,7 @@ void setup() {              ///Initializes game variables, placing the ball and 
     ball_X = W / 2;
     ball_Y = H / 2;
     ball_Dir_X = -1;         ///starting from left in x axis
-    ball_Dir_Y = 1;          ///    "      "   downward in the y aixis    [positive value along the Y-axis indicates movement downward.]
+    ball_Dir_Y = 1;          ///    "      "   downward in the y axis    [positive value along the Y-axis indicates movement downward.]
     PlayerY = H / 2;
     ComputerY = H / 2;
     PlayerScore = 0;
